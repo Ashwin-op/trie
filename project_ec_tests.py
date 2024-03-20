@@ -41,7 +41,7 @@ def trie_tests():
 	print(f'search_and_get_depth(team): {uncompressed_trie.search_and_get_depth("team")}, Expected: -1')
 	print(f'search_and_get_depth(slowing): {uncompressed_trie.search_and_get_depth("slowing")}, Expected: -1\n')
 
-	
+
 	print('testing uncompressed suffix tree')
 
 	uncompressed_suffix_tree = requirements.Trie(is_compressed=False)
