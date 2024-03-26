@@ -17,7 +17,7 @@ This repository also contains the implementation of Suffix Trees. Everything is 
 from trie import Trie
 
 # Create a new trie
-trie = Trie() # or Trie(compressed=True) for a compressed trie
+trie = Trie() # or Trie(is_compressed=True) for a compressed trie
 
 # Insert a word into the trie
 trie.insert("hello")
